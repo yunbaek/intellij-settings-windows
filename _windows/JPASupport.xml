@@ -1,0 +1,225 @@
+<application>
+  <component name="JpaSupportSettings">
+    <option name="dbTypeToJavaType">
+      <map>
+        <entry key="bigint">
+          <value>
+            <ClassWrapper>
+              <option name="clazz" value="java.lang.Long" />
+            </ClassWrapper>
+          </value>
+        </entry>
+        <entry key="bigserial">
+          <value>
+            <ClassWrapper>
+              <option name="clazz" value="java.lang.Long" />
+            </ClassWrapper>
+          </value>
+        </entry>
+        <entry key="bit">
+          <value>
+            <ClassWrapper>
+              <option name="clazz" value="java.lang.Boolean" />
+            </ClassWrapper>
+          </value>
+        </entry>
+        <entry key="blob">
+          <value>
+            <ClassWrapper>
+              <option name="clazz" value="[B" />
+            </ClassWrapper>
+          </value>
+        </entry>
+        <entry key="bytea">
+          <value>
+            <ClassWrapper>
+              <option name="clazz" value="[B" />
+            </ClassWrapper>
+          </value>
+        </entry>
+        <entry key="char">
+          <value>
+            <ClassWrapper>
+              <option name="clazz" value="java.lang.String" />
+            </ClassWrapper>
+          </value>
+        </entry>
+        <entry key="character varying">
+          <value>
+            <ClassWrapper>
+              <option name="clazz" value="java.lang.String" />
+            </ClassWrapper>
+          </value>
+        </entry>
+        <entry key="clob">
+          <value>
+            <ClassWrapper>
+              <option name="clazz" value="java.lang.String" />
+            </ClassWrapper>
+          </value>
+        </entry>
+        <entry key="date">
+          <value>
+            <ClassWrapper>
+              <option name="clazz" value="java.sql.Date" />
+            </ClassWrapper>
+          </value>
+        </entry>
+        <entry key="datetime">
+          <value>
+            <ClassWrapper>
+              <option name="clazz" value="java.util.Date" />
+            </ClassWrapper>
+          </value>
+        </entry>
+        <entry key="decimal">
+          <value>
+            <ClassWrapper>
+              <option name="clazz" value="java.math.BigDecimal" />
+            </ClassWrapper>
+          </value>
+        </entry>
+        <entry key="double">
+          <value>
+            <ClassWrapper>
+              <option name="clazz" value="java.lang.Double" />
+            </ClassWrapper>
+          </value>
+        </entry>
+        <entry key="double precision">
+          <value>
+            <ClassWrapper>
+              <option name="clazz" value="java.lang.Double" />
+            </ClassWrapper>
+          </value>
+        </entry>
+        <entry key="float">
+          <value>
+            <ClassWrapper>
+              <option name="clazz" value="java.lang.Float" />
+            </ClassWrapper>
+          </value>
+        </entry>
+        <entry key="id">
+          <value>
+            <ClassWrapper>
+              <option name="clazz" value="java.lang.Long" />
+            </ClassWrapper>
+          </value>
+        </entry>
+        <entry key="int">
+          <value>
+            <ClassWrapper>
+              <option name="clazz" value="java.lang.Integer" />
+            </ClassWrapper>
+          </value>
+        </entry>
+        <entry key="integer">
+          <value>
+            <ClassWrapper>
+              <option name="clazz" value="java.lang.Long" />
+            </ClassWrapper>
+          </value>
+        </entry>
+        <entry key="json">
+          <value>
+            <ClassWrapper>
+              <option name="clazz" value="java.lang.String" />
+            </ClassWrapper>
+          </value>
+        </entry>
+        <entry key="longblob">
+          <value>
+            <ClassWrapper>
+              <option name="clazz" value="[B" />
+            </ClassWrapper>
+          </value>
+        </entry>
+        <entry key="mediumblob">
+          <value>
+            <ClassWrapper>
+              <option name="clazz" value="[B" />
+            </ClassWrapper>
+          </value>
+        </entry>
+        <entry key="mediumint">
+          <value>
+            <ClassWrapper>
+              <option name="clazz" value="java.lang.Integer" />
+            </ClassWrapper>
+          </value>
+        </entry>
+        <entry key="numeric">
+          <value>
+            <ClassWrapper>
+              <option name="clazz" value="java.math.BigDecimal" />
+            </ClassWrapper>
+          </value>
+        </entry>
+        <entry key="real">
+          <value>
+            <ClassWrapper>
+              <option name="clazz" value="java.lang.Float" />
+            </ClassWrapper>
+          </value>
+        </entry>
+        <entry key="smallint">
+          <value>
+            <ClassWrapper>
+              <option name="clazz" value="java.lang.Integer" />
+            </ClassWrapper>
+          </value>
+        </entry>
+        <entry key="text">
+          <value>
+            <ClassWrapper>
+              <option name="clazz" value="java.lang.String" />
+            </ClassWrapper>
+          </value>
+        </entry>
+        <entry key="time">
+          <value>
+            <ClassWrapper>
+              <option name="clazz" value="java.sql.Time" />
+            </ClassWrapper>
+          </value>
+        </entry>
+        <entry key="timestamp">
+          <value>
+            <ClassWrapper>
+              <option name="clazz" value="java.util.Date" />
+            </ClassWrapper>
+          </value>
+        </entry>
+        <entry key="tinyblob">
+          <value>
+            <ClassWrapper>
+              <option name="clazz" value="[B" />
+            </ClassWrapper>
+          </value>
+        </entry>
+        <entry key="tinyint">
+          <value>
+            <ClassWrapper>
+              <option name="clazz" value="java.lang.Integer" />
+            </ClassWrapper>
+          </value>
+        </entry>
+        <entry key="varchar">
+          <value>
+            <ClassWrapper>
+              <option name="clazz" value="java.lang.String" />
+            </ClassWrapper>
+          </value>
+        </entry>
+        <entry key="year">
+          <value>
+            <ClassWrapper>
+              <option name="clazz" value="java.lang.Short" />
+            </ClassWrapper>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</application>

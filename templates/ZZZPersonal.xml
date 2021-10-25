@@ -1,0 +1,30 @@
+<templateSet group="ZZZPersonal">
+  <template name="logv" value="console.log('$NAME$', $VARIABLE$);&#10;$END$" description="console log with name" toReformat="false" toShortenFQNames="true">
+    <variable name="VARIABLE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="NAME" expression="VARIABLE" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="tdd" value="@Test&#10;@DisplayName(&quot;$1$&quot;)&#10;void $2$() {&#10;    $END$&#10;}" description="Java test method" toReformat="false" toShortenFQNames="true" useStaticImport="true">
+    <variable name="1" expression="method name" defaultValue="testcase" alwaysStopAt="true" />
+    <variable name="2" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="tddd" value="@Test&#10;@DisplayName(&quot;$1$&quot;)&#10;void $2$() {&#10;    // given&#10;    $END$&#10;    // when&#10;    &#10;    // then&#10;    &#10;}" description="" toReformat="false" toShortenFQNames="true" useStaticImport="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="2" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="loginfo" value="log.info(&quot;$STRING$ = {}&quot;, $VARIABLE$);&#10;$END$" description="log" toReformat="false" toShortenFQNames="true">
+    <variable name="VARIABLE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="STRING" expression="VARIABLE" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+</templateSet>
